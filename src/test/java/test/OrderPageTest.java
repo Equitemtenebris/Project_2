@@ -48,8 +48,15 @@ public class OrderPageTest {
     }
 
     @Test
-    public void testPositiveOrderScenario() {
+    public void testPositiveOrderScenarioTop() {
         orderPage.clickOrderButtonTop();
+        orderPage.fillOrderForm(name, lastName, address, metro, phone);
+        assertTrue("Заказ не был успешно оформлен", orderPage.isOrderSuccess());
+    }
+
+    @Test
+    public void testPositiveOrderScenarioBot() {
+        orderPage.clickOrderButtonBot();
         orderPage.fillOrderForm(name, lastName, address, metro, phone);
         assertTrue("Заказ не был успешно оформлен", orderPage.isOrderSuccess());
     }

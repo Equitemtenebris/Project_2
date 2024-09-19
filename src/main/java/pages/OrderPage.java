@@ -8,6 +8,7 @@ public class OrderPage {
 
     // Локаторы для элементов формы заказа
     private By orderButtonTop = By.className("Button_Button__ra12g"); // Верхняя кнопка заказа
+    private By orderButtonBot = By.className(".Button_Button__ra12g.Button_UltraBig__UU3Lp"); // Нижняя кнопка заказа
     private By nameInput = By.xpath(".//input[@placeholder='* Имя']");
     private By lastNameInput = By.xpath(".//input[@placeholder='* Фамилия']");
     private By addressInput = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
@@ -23,6 +24,10 @@ public class OrderPage {
     // Метод для клика по кнопке "Заказать" вверху страницы
     public void clickOrderButtonTop() {
         driver.findElement(orderButtonTop).click();
+    }
+
+    public void clickOrderButtonBot() {
+        driver.findElement(orderButtonBot).click();
     }
 
     // Метод для заполнения формы заказа

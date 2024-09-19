@@ -15,10 +15,10 @@ public class MainPage {
 
     // Локаторы
     // Кнопка "Заказать" (верхняя)
-    private By orderTopButton = By.xpath("//*[@id=root]/div/div[1]/div[1]/div[2]/button[1]");
+    private By orderTopButton = By.cssSelector(".Button_Button__ra12g");
 
     // Кнопка "Заказать" (нижняя)
-    private By orderBottomButton = By.xpath("//*[@id=root]/div/div[1]/div[4]/div[2]/div[5]/button");
+    private By orderBottomButton = By.cssSelector(".Button_Button__ra12g.Button_UltraBig__UU3Lp");
 
     // Раздел "Вопросы о важном"
     private By importantQuestionsSection = By.id("accordion");
