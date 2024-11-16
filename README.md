@@ -13,7 +13,7 @@
 
  <br /> Тестирование веб-приложения. 
     <br />
-    <a href="https://github.com/Equitemtenebris/Project_3"><strong>Explore the docs</strong></a>
+    <a href="https://github.com/Equitemtenebris/Project_2"><strong>Explore the docs</strong></a>
     <br />
   </p>
 </div>
@@ -72,6 +72,6 @@
 
 Адилет - [@Equitem_tenebris](https://t.me/Equitem_tenebris) 
 
-Project Link: [Project_3](https://github.com/Equitemtenebris/Project_3)
+Project Link: [Project_3](https://github.com/Equitemtenebris/Project_2)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
